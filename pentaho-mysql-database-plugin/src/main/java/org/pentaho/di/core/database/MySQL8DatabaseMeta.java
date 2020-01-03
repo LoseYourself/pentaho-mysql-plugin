@@ -42,7 +42,7 @@ public class MySQL8DatabaseMeta extends MySQLDatabaseMeta implements DatabaseInt
     addExtraOption(getPluginId(), "defaultFetchSize", "500");
     addExtraOption(getPluginId(), "useCursorFetch", "true");
     addExtraOption(getPluginId(), "userSSL", "false");
-    addExtraOption(getPluginId(), "serverTimezone", "UTC");
+    addExtraOption(getPluginId(), "serverTimezone", "GMT+8");
   }
 
 }
