@@ -24,7 +24,7 @@ import org.pentaho.di.core.plugins.DatabaseMetaPlugin;
  * @version
  * 
  */
-@DatabaseMetaPlugin(type = "MYSQL8", typeDescription = "MySQL 8 Database")
+@DatabaseMetaPlugin(type = "MYSQL8+", typeDescription = "MySQL 8+ Database")
 public class MySQL8DatabaseMeta extends MySQLDatabaseMeta implements DatabaseInterface {
 
   @Override
